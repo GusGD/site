@@ -1,0 +1,58 @@
+
+h5.mb-1.footer {
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 15px;
+}
+.footer-copyright.text-center.py-3 {
+    font-weight: 700;
+
+}
+
+form.col-8 {
+    float: right;
+    max-width: 92%;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(73, 80, 87, 0.4);
+}
+.texto-contato {
+    margin: 30px;
+    font-weight: 800;
+}
+button#btnSend {
+    background-color: #495057;
+    color: white;
+    font-size: 20px;
+    padding: 6px 30px;
+    font-weight: 600;
+}
+.row-contato {
+    margin-top: 30px;
+}
+.footer-copyright.text-center.py-3 a{
+    
+    color: #fa7c00;
+}
+li.list-inline-item.img img {
+    width: 40%;
+}
+.form-control {
+    border-top: none;
+    border-bottom: 2px solid;
+    border-radius: 0px;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+}
+::-webkit-input-placeholder {
+    color: red;
+}
+input-placeholder {
+    color: red;
+}

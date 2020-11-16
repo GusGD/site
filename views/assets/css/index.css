@@ -1,0 +1,497 @@
+* {
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+/* ============== HEADER ============== */
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/fundo-home.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar.navbar-expand-lg {
+        padding: 20px;
+}
+.navbar-nav .nav-link {
+    color: #2247be;
+    font-weight: 900;
+    font-size: 14px;
+}
+.navbar-nav .active>.nav-link{
+    color: #2247be !important;
+}
+a.nav-link.btn.btn_parceiro {
+    color: white;
+    background-color: #2247be;
+    border-radius: 50px;
+}
+
+.navbar {
+    background-color: transparent ;
+}
+
+/* ============== HOVER HEADER ============== */
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0830b0;
+}
+a.nav-link:hover {
+    border-bottom: 2px solid #2247be ;
+    cursor: pointer;
+}
+
+/* ============== FIM HOVER HEADER ============== */
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/* ============== section 1 ============== */
+#section__1 {
+    background: rgb(5,87,199);
+    background: linear-gradient(144deg, rgba(5,87,199,1) 10%, rgba(59,230,251,1) 61%);
+    padding: 10% 0;
+    color:white;
+}
+.titulo_texto_info small {
+    font-size: 20px;
+}
+p.texto_info {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+hr.hr_section1 {
+    width: 15%;
+    border: 2px solid red;
+    position: absolute;
+    margin-top: 0;
+}
+.explicativo_jogo {
+    margin-top: 15%;
+}
+p.texto_explicativo {
+    font-size: 13px;
+}
+.btn.btn-querojogar {
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    margin-top: 7%;
+    border-radius: 50px;
+    padding: 5px 30px;
+}
+
+.w-100 {
+    width: 40%!important;
+    position: relative;
+    /* height: 80% !important; */
+    left: 32%;
+}
+/* ============== section 1 ============== */
+
+/* ============== section 2 ============== */
+#section__2 {
+    margin: 5% 0;
+}
+.praquem_xtop small {
+    font-size: 20px;
+    color: #0f64f0;
+}
+.praquem_info {
+    font-size: 30px;
+}
+.hr_section2 {
+    width: 10%;
+    border: 2px solid #b144fe;
+    bottom: 10px;
+    position: relative;
+    right: 0px;
+}
+.texto_praquem {
+    padding: 0 11%;
+}
+.row.al-t {
+    margin-top: 40px;
+}
+.card.featured {
+    padding: 20px;
+}
+.service_info {
+    font-size: 20px;
+    text-align: center;
+}
+p.sub_text_info {
+    text-align: center;
+    font-size: 14px;
+}
+.card.featured {
+    padding: 20px;
+    height: 200px;
+}
+.card.featured:hover {
+    background-color: red;
+    color: white;
+}
+/* ============== section 2 ============== */
+
+/* ============== section 3 ============== */
+#section__3 {
+    margin: 0 0;
+    background-color: #f0f6fd;
+}
+.parceiros_xtop {
+    margin-top: 4%;
+}
+.parceiros_xtop small{
+    font-size: 30px;
+}
+.hr_section3 {
+    width: 10%;
+    border: 2px solid red;
+    bottom: 10px;
+    position: relative;
+    right: 0px;
+}
+p.texto_parceiros {
+    padding: 0px 13%;
+    font-size: 15px;
+}
+a.btn-floating {
+    right: 25px;
+    position: relative;
+}
+.controls-top {
+    width: 3%;
+    position: relative;
+    top: 200px;
+}
+a.btn-floating.right {
+    left: 1117px;
+}
+.carousel-indicators {
+    position: relative;
+    right: 0;
+    bottom: 0 ;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    /* top: 89%; */
+}
+i.fa.fa-circle {
+    font-size: 25px;
+    padding: 16px 6px;
+    cursor: pointer;
+    color: #2247be !important;
+}
+i.fa.fa-circle.active {
+    color: #7e95dc !important
+}
+
+.card-img, .card-img-top {
+    width: 70%;
+    height: 169px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.card.mb-2 {
+    background-color: transparent;
+    border: none;
+}
+.card-body {
+    text-align: center;
+    margin-top: 11px;
+}
+/* ============== section 3 ============== */
+
+/* ============== section 4 ============== */
+img.scroll-aparecer.img-fluid {
+    
+    position: relative;
+}
+/* ============== section 4 ============== */
+
+/*
+#perc {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+    z-index: 99999;
+}*/
+
+.row_chamada {
+    margin-top: 5%;
+}
+.service {
+    padding: 0px 24px 0 0px;
+    display: inline-flex;
+    margin-left: 30px;
+}
+.service span {
+    font-size: 100px;
+    font-weight: 900;
+    color: #2347be;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: transparent;
+    outline: 0;
+    border-color: #2347BE;
+    box-shadow: none;
+}
+
+.text-box h2 {
+    font-size: 16px;
+    margin-left: 0px;
+    font-weight: 900;
+    position: relative;
+    padding-left: 0px;
+    top: 50px;
+    color:red;
+}
+.texto_section4 {
+    margin-top: 7%;
+    padding-left: 2% !important;
+}
+.hr_section4 {
+    width: 17%;
+    border: 2px solid red;
+    right: 41%;
+    position: relative;
+    margin-top: 0.7rem;
+}
+.chamada {
+    font-weight: 900;
+    color: red;
+    margin-bottom: -10px;
+}
+#section__5 {
+    background-color: #f4f5ff;
+    padding-top:60px;
+}
+.texto_newletter {
+    color: #0f64f0;
+    padding-left: 0%;
+    font-weight: 900;
+}
+.hrsection5 {
+    border: 1px solid;
+    width: 59%;
+    position: relative;
+    margin-top: 0rem;
+    right: 20%;
+    bottom: 10px;
+    color: #2347BE;
+}
+input.form-control {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #2347BE;
+    background-color: transparent;
+    width:319px;
+}
+.newletter_info {
+    display: inline-flex;
+}   
+li.list-inline-item.img img {
+    width: 40%;
+}
+.font-weight-light {
+    font-weight: 900!important;
+    color: white;
+}
+p.lead {
+    font-weight: 900;
+    color: white;
+}
+
+button.btn.btn_conheca {
+    background-color: #2347BE;
+    color: white;
+    border-radius: 50px;
+    padding-left: 25px;
+    font-weight: 700;
+    padding-right: 25px;
+}
+.card.featured {
+    padding: 20px;
+    height: 310px;
+    margin-bottom: 20px;
+}
+i.fa.fa-child {
+    font-size: 65px;
+}
+@media(max-width:1025px){
+    .controls-top {
+        display: none;
+    }
+    p.texto_info {
+        font-size: 29px;
+        font-weight: 800;
+    }
+    i.fa.fa-child {
+        font-size: 65px;
+    }
+    .card.featured {
+        padding: 20px;
+        height: 310px;
+    }
+    .service {
+        padding: 0px 0px 0 0px;
+        display: inline-flex;
+        margin-left: 4px;
+    }
+    .text-box h2 {
+        font-size: 14px;
+        margin-left: 0px;
+        font-weight: 900;
+        position: relative;
+        padding-left: 3px;
+        top: 50px;
+        color: red;
+    }
+    input.form-control {
+        width: 250px;
+    }
+}
+@media (max-width:800px){
+    .texto_section4{
+        background-image: url('../img/mulher.png');
+        background-repeat: no-repeat;
+    }
+    .img_section4{
+        display: none;
+    }
+    .service {
+        padding: 0px 0px 0 0px;
+        display: inline-flex;
+        margin-left: 4px;
+        position: relative;
+        width: 371px;
+        /* left: 55%; */
+        float: left;
+    }
+    .col-sm-12.col-lg-3.service.tablet3 {
+        float: right;
+    }
+    input.form-control {
+        width: 180px;
+    }
+    .texto_newletter {
+        color: #0f64f0;
+        padding-left: 0%;
+        font-weight: 900;
+        font-size: 14px;
+    }
+    .card.featured {
+        padding: 20px;
+        height: 310px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:500px){
+    .font-weight-light {
+        font-weight: 900!important;
+        color: white;
+        margin-top: 29%;
+        font-size: 20px;
+    }
+    .lead {
+        font-weight: 900;
+        color: white;
+        font-size: 15px;
+    }
+    img.celular-home.img-fluid.js-tilt {
+        width: 80%;
+    }
+    .btn.btn-querojogar {
+        margin-bottom: 20px;
+        position: relative;
+        left: 30%;
+    }
+    .texto_newletter {
+        color: #0f64f0;
+        padding-left: 0%;
+        font-weight: 900;
+        font-size: 12px;
+        position: relative;
+        top: 20px;
+    }
+    .hrsection5 {
+        border: 1px solid;
+        width: 59%;
+        position: relative;
+        margin-top: 0rem;
+        right: 20%;
+        top: 9px;
+        color: #2347BE;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img-top {
+        width: 57%;
+        height: 202px;
+        -webkit-font-smoothing: subpixel-antialiased;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        position: relative;
+        top: 10px;
+        left: 90px;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+    }
+}
+h5.mb-1.footer {
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 15px;
+}
+.footer-copyright.text-center.py-3 {
+    font-weight: 700;
+   
+}
+.footer-copyright.text-center.py-3 a{
+    
+    color: #fa7c00;
+}
+.parceiros_xtop small, .praquem_info, .praquem_xtop small {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card.featured.text-center img {
+    width: 90px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 70px;
+}
